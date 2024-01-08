@@ -16,13 +16,13 @@
 
 <body>
     <header class="container-fluid justify-content-center header-title">
-        <img class="img-logo py-3" src="resources/img/git.png" alt="git logo">
 
+
+        <img class="img-logo py-3" src="resources/img/git.png" alt="git logo">
         <h1 class="py-3 px-3 mb-0">
             <a class="text-decoration-none" href="index.php">
                 HLC: Cuesta de Enero
             </a>
         </h1>
-
         <img class="img-logo py-3" src="resources/img/docker.png" alt="docker logo">
     </header>

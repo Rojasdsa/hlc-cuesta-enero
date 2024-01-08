@@ -1,3 +1,4 @@
+/* Mostrar/Ocultar el menú */
 function toggleAside() {
     let asideElement = document.getElementById('aside-nav');
     if (asideElement) {
@@ -11,3 +12,29 @@ function toggleAside() {
         });
     }
 }
+
+/* Reloj con la hora actual*/
+function actualizarReloj() {
+    let relojElemento = document.getElementById('reloj');
+    let fechaActual = new Date();
+
+    let horas = fechaActual.getHours();
+    let minutos = fechaActual.getMinutes();
+    let segundos = fechaActual.getSeconds();
+
+    // Agrega ceros a la izquierda si es necesario para mantener el formato HH:MM:SS
+    horas = (horas < 10) ? '0' + horas : horas;
+    minutos = (minutos < 10) ? '0' + minutos : minutos;
+    segundos = (segundos < 10) ? '0' + segundos : segundos;
+
+    let horaActual = horas + ':' + minutos + ':' + segundos;
+    relojElemento.textContent = horaActual;
+}
+
+// Actualiza el reloj cada segundo
+setInterval(actualizarReloj, 1000);
+
+// Inicializa el reloj cuando se carga la página
+window.onload = function () {
+    actualizarReloj();
+};

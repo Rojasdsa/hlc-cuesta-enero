@@ -43,7 +43,6 @@ header {
 /* ASIDE */
 aside {
     flex: 1;
-    min-height: 80vh;
     width: 100%;
     transition: width 0.5s ease-in-out;
     /* Agregamos una transición suave a la propiedad width */
@@ -82,6 +81,11 @@ li {
 main {
     flex: 1;
     /* Permite que el contenido principal ocupe el espacio restante */
+}
+
+/* RELOJ */
+#reloj {
+    font-size: 2em;
 }
 
 /* FOOTER */
