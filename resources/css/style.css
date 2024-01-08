@@ -27,7 +27,8 @@ header {
 
 .header-title h1 a {
     transition: color 1.5s ease-in-out;
-    color: inherit; /* Hereda el color del contenedor principal */
+    color: inherit;
+    /* Hereda el color del contenedor principal */
 }
 
 .header-title:hover h1 a {
@@ -39,10 +40,28 @@ header {
     height: auto;
 }
 
-/* SIDEBAR*/
+/* ASIDE */
 aside {
     flex: 1;
     min-height: 80vh;
+    width: 100%;
+    transition: width 0.5s ease-in-out;
+    /* Agregamos una transición suave a la propiedad width */
+}
+
+.aside-collapsed {
+    width: 10%;
+}
+
+.nav-hidden {
+    display: none;
+    /* Estilo adicional para ocultar listas */
+}
+
+.boton-aside {
+    width: 100%;
+    background-color: rgb(138, 128, 107);
+    color: rgb(247, 247, 247);
 }
 
 .nav-link,
