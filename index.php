@@ -2,15 +2,14 @@
 <?php include('includes/header.php'); ?>
 
 <div class="container-fluid">
-    <div class="row mt-4 border border-1">
-
+    <div class="row">
         <!-- Sidebar que contendrá el menú de navegación -->
         <?php include('includes/sidebar.php'); ?>
 
         <!-- Contenido principal -->
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
             <!-- Contenido de tu página -->
-            <h1 class="m-4 text-center">Bienvenido a la Página de Inicio</h1>
+            <h2 class="text-center mt-4">Bienvenido a la Página de Inicio</h2>
             <!-- Puedes incluir más contenido aquí -->
         </main>
     </div>

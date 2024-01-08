@@ -15,4 +15,6 @@
 
 
 <body>
-    <h1 class="text-center mt-4">HLC: Cuesta de Enero</h1>
+    <div class="container-fluid px-0 header-main">
+        <h1 class="py-3 ps-4 mb-0">HLC: Cuesta de Enero</h1>
+    </div>
