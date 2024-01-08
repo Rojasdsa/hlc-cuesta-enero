@@ -47,12 +47,17 @@ header {
 }
 
 @keyframes shake {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateX(0);
     }
-    25%, 75% {
+
+    25%,
+    75% {
         transform: translateX(-5px);
     }
+
     50% {
         transform: translateX(5px);
     }
@@ -99,6 +104,10 @@ li {
 main {
     flex: 1;
     /* Permite que el contenido principal ocupe el espacio restante */
+}
+
+.card {
+    border-color: rgb(138, 128, 107);
 }
 
 /* RELOJ */
