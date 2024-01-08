@@ -16,5 +16,9 @@
 
 <body>
     <div class="container-fluid px-0 header-main">
-        <h1 class="py-3 ps-4 mb-0">HLC: Cuesta de Enero</h1>
+        <h1 class="py-3 ps-4 mb-0">
+            <a class="text-decoration-none" href="index.php">
+                HLC: Cuesta de Enero
+            </a>
+        </h1>
     </div>

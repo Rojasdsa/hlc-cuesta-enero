@@ -10,7 +10,7 @@ body{
 
 /* SIDEBAR*/
 
-.nav-link{
+.nav-link,a{
     color: rgb(39, 39, 39);
 }
 
