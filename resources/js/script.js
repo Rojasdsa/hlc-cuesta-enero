@@ -52,3 +52,9 @@ function agitarAutomaticamente() {
 
 // Agitar automáticamente cada 5 segundos (5000 milisegundos)
 setInterval(agitarAutomaticamente, 3000);
+
+/* Vuelve a la página anterior al pulsar el botón de volver*/
+// function volver() {
+//     history.back();
+// }
+// En local no funciona, así que hay que forzarlo desde los enlaces

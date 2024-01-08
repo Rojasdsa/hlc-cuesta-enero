@@ -15,7 +15,7 @@
 
 
 <body>
-    <header class="container-fluid justify-content-center header-title">
+    <header class="container-fluid justify-content-between header-title">
         <a href="https://github.com/Rojasdsa/hlc-cuesta-enero" target="_blank">
             <img id="gitLogo" class="img-logo py-3" src="resources/img/gitred.png" alt="git logo">
         </a>

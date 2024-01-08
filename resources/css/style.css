@@ -110,6 +110,18 @@ main {
     border-color: rgb(138, 128, 107);
 }
 
+.boton-volver{
+    background-color: rgb(138, 128, 107);
+    border-color:rgb(138, 128, 107);
+    color: rgb(247, 247, 247);
+}
+
+.boton-volver:hover {
+    background-color:#dac588;
+    border-color: #dac588;
+    color: rgb(39, 39, 39);
+}
+
 /* RELOJ */
 #reloj {
     font-size: 2em;

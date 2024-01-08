@@ -12,6 +12,11 @@
             <article>
                 <h2 class="text-center mt-4">Tutorial Docker</h2>
                 <p class="text-center">Aquí tienes dos tutoriales sencillos para utilizar Git y Docker</p>
+
+                <!-- Botón de Volver -->
+                <div class="text-center mt-4">
+                    <a href="javascript:history.back()" class="boton-volver btn btn-secondary">Volver</a>
+                </div>
             </article>
         </section>
     </div>

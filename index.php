@@ -20,8 +20,8 @@
                             <div class="card-body">
                                 <h5 class="card-title">Tutorial Git</h5>
                                 <p class="card-text">No vuelvas a extraviar tu código</p>
-                                <a href="git.php" class="btn btn-outline-success">Ver Tutorial</a>
-                            </div>
+                                    <a href="git.php" class="btn btn-outline-success">Ver Tutorial</a>
+                                </div>
                         </div>
                     </div>
 
