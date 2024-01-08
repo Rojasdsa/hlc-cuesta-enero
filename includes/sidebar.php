@@ -1,4 +1,4 @@
-<nav class="col-md-3 col-lg-2 d-md-block border-end">
+<aside class="col-md-3 col-lg-2 d-md-block border-end">
     <div class="position-sticky">
 
         <ul class="nav flex-column">
@@ -36,4 +36,4 @@
             </li>
         </ul>
     </div>
-</nav>
+</aside>

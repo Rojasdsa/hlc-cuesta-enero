@@ -1,22 +1,39 @@
 /* BODY */
-body{
+body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Establece la altura mínima del cuerpo al 100% del viewport height */
 }
+
 /* HEADER */
-.header-main {
+header {
     background-color: #dac588;
+    display: flex;
+    flex-direction: row;
 }
 
-.header-title:hover{
+.header-title:hover {
     color: rgb(247, 247, 247);
-    transition: color 0.3s ease-in-out; /* Transición suave de color durante 0.3 segundos */
+    transition: color 0.3s ease-in-out;
+    /* Transición suave de color durante 0.3 segundos */
+}
 
+.img-logo{
+    width: 50px;
+    height: auto;
 }
 
 /* SIDEBAR*/
+aside {
+    flex: 1;
+    min-height: 80vh;
+}
 
-.nav-link,a{
+.nav-link,
+a {
     color: rgb(39, 39, 39);
 }
 
@@ -27,4 +44,16 @@ body{
 li {
     list-style-type: none;
     /* Quitamos los índices de las listas */
+}
+
+/* MAIN */
+main {
+    flex: 1;
+    /* Permite que el contenido principal ocupe el espacio restante */
+}
+
+/* FOOTER */
+footer {
+    background-color: #dac588;
+    color: rgb(39, 39, 39);
 }
