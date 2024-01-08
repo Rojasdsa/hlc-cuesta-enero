@@ -1,4 +1,4 @@
-<aside id="aside-nav" class="col-md-3 col-lg-2 d-md-block border-end p-0">
+<aside id="aside-nav" class="col-md-3 col-lg-2 d-md-block border-end border-bottom p-0">
     <div class="position-sticky">
         <button class="boton-aside border-0 border-end" onclick="toggleAside()">Menú</button>
 
@@ -11,10 +11,16 @@
                 <ul class="nav-list">
                     <li>
                         <a class="nav-link" href="#">
-                            Parte A
+                            Qué es Git
                         </a>
                         <a class="nav-link" href="#">
-                            Parte B
+                            Para qué sirve
+                        </a>
+                        <a class="nav-link" href="#">
+                            Ventajas de utilizar Git
+                        </a>
+                        <a class="nav-link" href="#">
+                            Comandos básicos
                         </a>
                     </li>
                 </ul>
@@ -26,11 +32,17 @@
                 </a>
                 <ul class="nav-list">
                     <li>
-                        <a class="nav-link" href="#">
-                            Parte A
+                    <a class="nav-link" href="#">
+                            Qué es Docker
                         </a>
                         <a class="nav-link" href="#">
-                            Parte B
+                            Para qué sirve
+                        </a>
+                        <a class="nav-link" href="#">
+                            Ventajas de utilizar Docker
+                        </a>
+                        <a class="nav-link" href="#">
+                            Comandos básicos
                         </a>
                     </li>
                 </ul>

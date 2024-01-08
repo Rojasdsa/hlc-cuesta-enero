@@ -16,9 +16,9 @@
 
 <body>
     <header class="container-fluid justify-content-center header-title">
-
-
-        <img class="img-logo py-3" src="resources/img/git.png" alt="git logo">
+        <a href="https://github.com/Rojasdsa/hlc-cuesta-enero" target="_blank">
+            <img id="gitLogo" class="img-logo py-3" src="resources/img/gitred.png" alt="git logo">
+        </a>
         <h1 class="py-3 px-3 mb-0">
             <a class="text-decoration-none" href="index.php">
                 HLC: Cuesta de Enero

@@ -13,7 +13,7 @@ function toggleAside() {
     }
 }
 
-/* Reloj con la hora actual*/
+/* Reloj con la hora actual */
 function actualizarReloj() {
     let relojElemento = document.getElementById('reloj');
     let fechaActual = new Date();
@@ -38,3 +38,17 @@ setInterval(actualizarReloj, 1000);
 window.onload = function () {
     actualizarReloj();
 };
+
+/* Agitar el icono de git y al hacer click te lleva a github */
+function agitarAutomaticamente() {
+    let gitLogo = document.getElementById('gitLogo');
+    gitLogo.classList.add('agitacion');
+
+    // Elimina la clase de agitación después de la duración de la animación
+    setTimeout(function() {
+        gitLogo.classList.remove('agitacion');
+    }, 500);
+}
+
+// Agitar automáticamente cada 5 segundos (5000 milisegundos)
+setInterval(agitarAutomaticamente, 3000);
