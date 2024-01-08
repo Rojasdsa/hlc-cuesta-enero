@@ -15,5 +15,4 @@
 
 
 <body>
-
     <h1 class="text-center mt-4">HLC: Cuesta de Enero</h1>
