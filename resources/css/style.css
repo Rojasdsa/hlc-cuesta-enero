@@ -8,6 +8,12 @@ body{
     background-color: #dac588;
 }
 
+.header-title:hover{
+    color: rgb(247, 247, 247);
+    transition: color 0.3s ease-in-out; /* Transición suave de color durante 0.3 segundos */
+
+}
+
 /* SIDEBAR*/
 
 .nav-link,a{
