@@ -1,5 +1,6 @@
 /* BODY */
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -80,18 +81,42 @@ aside {
     /* Estilo adicional para ocultar listas */
 }
 
+.nav-list {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+
+.show .nav-list {
+    max-height: 1000px; /* O un valor grande para garantizar que sea suficiente para mostrar todos los elementos */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    display: block;
+}
+
+.nav-link:hover {
+    background-color: #eee;
+}
+
+.show {
+    display: block;
+}
+
 .boton-aside {
     width: 100%;
     background-color: rgb(138, 128, 107);
     color: rgb(247, 247, 247);
 }
 
-.nav-link,
-a {
+.a {
     color: rgb(39, 39, 39);
 }
 
-.nav-link:hover {
+.a:hover {
     color: #dac588;
 }
 
@@ -120,6 +145,14 @@ main {
     background-color:#dac588;
     border-color: #dac588;
     color: rgb(39, 39, 39);
+}
+
+.code {
+    background-color: #1f1f1f;
+    color: rgb(105, 167, 224);
+    padding: 2px 5px;
+    border: 1px solid #ddd;
+    font-family: "Courier New", monospace;
 }
 
 /* RELOJ */

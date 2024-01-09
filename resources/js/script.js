@@ -1,4 +1,7 @@
+'use strict'
+/* ----------------------------------------------------------*/
 /* Mostrar/Ocultar el menú */
+
 function toggleAside() {
     let asideElement = document.getElementById('aside-nav');
     if (asideElement) {
@@ -12,8 +15,9 @@ function toggleAside() {
         });
     }
 }
-
+/* ----------------------------------------------------------*/
 /* Reloj con la hora actual */
+
 function actualizarReloj() {
     let relojElemento = document.getElementById('reloj');
     let fechaActual = new Date();
@@ -38,8 +42,9 @@ setInterval(actualizarReloj, 1000);
 window.onload = function () {
     actualizarReloj();
 };
-
+/* ----------------------------------------------------------*/
 /* Agitar el icono de git y al hacer click te lleva a github */
+
 function agitarAutomaticamente() {
     let gitLogo = document.getElementById('gitLogo');
     gitLogo.classList.add('agitacion');
@@ -58,3 +63,21 @@ setInterval(agitarAutomaticamente, 3000);
 //     history.back();
 // }
 // En local no funciona, así que hay que forzarlo desde los enlaces
+
+/* ----------------------------------------------------------*/
+/* Dropdown para el sidebar */
+
+function toggleDropdown(dropdownId) {
+    let dropdown = document.getElementById(dropdownId);
+    if (dropdown) {
+        let isExpanded = dropdown.style.maxHeight !== '0px';
+
+        if (isExpanded) {
+            // Si está expandido, colapsa
+            dropdown.style.maxHeight = '0px';
+        } else {
+            // Si no está expandido, expande
+            dropdown.style.maxHeight = dropdown.scrollHeight + 'px';
+        }
+    }
+}
